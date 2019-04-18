@@ -1,4 +1,4 @@
-
+﻿
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -71,7 +71,7 @@ public class OrdenandoVetores {
                     for (s = 0; s < 9999; s++) {
                         System.out.println(arrayNumeros[s]);
                     }   System.out.println(" -------------------------------------------------------------");
-                    System.out.println("|Tempo de execução do método Selection Sort:" + " " + decorridoSelection + " " + "Milisegundos   |");
+                    System.out.println("|Tempo de execucao do metodo Selection Sort:" + " " + decorridoSelection + " " + "Milisegundos   |");
                     System.out.println(" -------------------------------------------------------------");
                     break;
                 case 2:
@@ -99,11 +99,11 @@ public class OrdenandoVetores {
                     for (u = 0; u < 9999; u++) {
                         System.out.println(arrayNumeros[u]);
                     }   System.out.println(" -------------------------------------------------------------");
-                    System.out.println("|Tempo de execução do método Bubble Sort:" + " " + decorridoBubble + " " + "Milisegundos   |");
+                    System.out.println("|Tempo de execucao do metodo Bubble Sort:" + " " + decorridoBubble + " " + "Milisegundos   |");
                     System.out.println(" -------------------------------------------------------------");
                     break;
                 
-                default: System.err.println("ERRO-666; Dígito inválido. Não foi possível Sortear essa bagaça!");
+                default: System.err.println("ERRO-666; Dígito inválido. Não foi possível Sortear!");
                     break;
             }
 //        }while(opcao != 0);
